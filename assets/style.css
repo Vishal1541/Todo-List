@@ -23,13 +23,35 @@
     color: rgb(167, 167, 167);
 }
 .plus{
-    color: rgb(220, 1, 129);
+    color: rgb(31, 186, 0);
+}
+.plus:hover{
+    color: rgb(6, 112, 0);
 }
 .list-elem{
+    font-size: 10px;
     margin-top: 5px;
     width: 40%;
     margin-left: 30%;
 }
 .list-elem:hover{
-    background-color: rgb(142, 183, 245);
+    background-color: rgb(171, 202, 249);
+}
+.list-dlt{
+    inline-size: 15px;
+    float: right;
+}
+.list-link{
+    color: rgb(193, 13, 67);
+}
+.list-link:hover{
+    color: rgb(162, 0, 57);
+}
+.list-edit{
+    color: rgb(133, 27, 255);
+    float: right;
+    margin-right: 10px;
+}
+.list-edit:hover{
+    color: rgb(66, 0, 128);
 }
